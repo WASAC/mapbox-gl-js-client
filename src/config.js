@@ -1,24 +1,20 @@
 module.exports = {
-    accessToken : 'pk.eyJ1IjoibmFyd2Fzc2NvIiwiYSI6ImNrOXIxOTFleTBvNGIzZ3A4b3docmE5cHQifQ.BqsnWbWZ2NwJZDWyOVWjXA',
-    attribution : '©NARWASSCO,Ltd.',
+    accessToken : 'pk.eyJ1IjoiamluLWlnYXJhc2hpIiwiYSI6ImNrOHV1Nm9mdTAzMGIzdHNmbDBmZzllNnIifQ.J-ZRzlVGLH6Qm2UbCmYWeA',
+    attribution : '©WASAC,Ltd.',
     styles : [
-        { title: 'Street', uri: 'mapbox://styles/narwassco/cka9n3gdl2jwh1ioa2zsowqn5',}, 
-        { title: 'Satellite', uri: 'mapbox://styles/narwassco/ck9ringpx01bk1iq8q4xvknjx',},
-        // { title: 'Street', uri: 'https://narwassco.github.io/mapbox-stylefiles/street/style.json',}, 
-        // { title: 'Satellite', uri: 'https://narwassco.github.io/mapbox-stylefiles/satellite/style.json',},
-        { title: 'UN Vector Tile', uri: 'https://narwassco.github.io/mapbox-stylefiles/unvt/style.json',},
+        { title: 'Street', uri: 'mapbox://styles/jin-igarashi/ckbp2snlw08oa1iqp9n3pyqos',}, 
     ],
-    center: [35.87063, -1.08551],
-    zoom: 13,
-    search:{
-        url: 'https://narwassco.github.io/vt-map/meter.geojson',
-        target: ['connno', 'serialno'],
-        format: (p) => {return `${p.customer}, ${p.connno}, ${p.serialno}, ${p.village}`},
-        place_type: ['meter'],
-        placeholder: 'Search CONN NO or S/N',
-        zoom: 17,
-    },
+    center: [29.69, -2.018],
+    zoom: 8,
+    // search:{
+    //     url: 'https://narwassco.github.io/vt-map/meter.geojson',
+    //     target: ['connno', 'serialno'],
+    //     format: (p) => {return `${p.customer}, ${p.connno}, ${p.serialno}, ${p.village}`},
+    //     place_type: ['meter'],
+    //     placeholder: 'Search CONN NO or S/N',
+    //     zoom: 17,
+    // },
     popup: {
-        target: ['meter','flow meter','valve','washout','firehydrant','tank','pipeline'/**,'intake','wtp'*/]
+        target: ['connection','chamber','reservoir','pumping-station','watersource','pipeline',]
     }
 }
