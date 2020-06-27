@@ -1,5 +1,5 @@
 # mapbox-gl-js-client
-This client shows Mapbox Vetor Tile of water supply map for Narok Water.
+This client shows Mapbox Vetor Tile of water supply map for Rural Water and Sanitation Services (RWSS) in WASAC, Rwanda.
 
 ## Installation
 
