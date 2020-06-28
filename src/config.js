@@ -1,4 +1,4 @@
-const version = 0.1;
+const version = 0.2;
 
 module.exports = {
     accessToken : 'pk.eyJ1IjoiamluLWlnYXJhc2hpIiwiYSI6ImNrOHV1Nm9mdTAzMGIzdHNmbDBmZzllNnIifQ.J-ZRzlVGLH6Qm2UbCmYWeA',
