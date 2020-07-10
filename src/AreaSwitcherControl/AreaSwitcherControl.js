@@ -82,7 +82,6 @@ export default class AreaSwitcherControl {
         _this.select.appendChild(node);
       });
     }
-    
     return this.controlContainer;
   }
   

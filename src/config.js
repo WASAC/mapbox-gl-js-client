@@ -1,7 +1,7 @@
 const version = 0.2;
 
 module.exports = {
-    accessToken : 'pk.eyJ1IjoiamluLWlnYXJhc2hpIiwiYSI6ImNrOHV1Nm9mdTAzMGIzdHNmbDBmZzllNnIifQ.J-ZRzlVGLH6Qm2UbCmYWeA',
+    accessToken : process.env.ACCESSTOKEN,
     attribution : '©WASAC,Ltd.',
     styles : [
         { title: 'Street', uri: `https://wasac.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
