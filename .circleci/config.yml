@@ -11,7 +11,7 @@ jobs:
           steps:
             - run: npm install
             - run: echo "ACCESSTOKEN=${ACCESSTOKEN}" > .env
-            # - run: echo "CNAME=${CNAME}" >> .env
+            - run: echo "CNAME=${CNAME}" >> .env
             - run: npm run build
             - run: git config user.email "wasac+circleci@users.noreply.github.com"
             - run: git config user.name "wasac+circleci"
