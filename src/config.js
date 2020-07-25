@@ -20,6 +20,6 @@ module.exports = {
         zoom: 13,
     },
     popup: {
-        target: ['connection','chamber','reservoir','pumping-station','watersource','pipeline',]
+        target: ['connection','chamber','reservoir','pumping-station','watersource','pipeline','wss']
     }
 }
