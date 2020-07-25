@@ -7,12 +7,13 @@ import { MapboxStyleSwitcherControl } from "mapbox-gl-style-switcher";
 import MapboxPopupControl from '@watergis/mapbox-gl-popup';
 import '@watergis/mapbox-gl-popup/css/styles.css';
 import PitchToggle from './pitchtogglecontrol/pitchtogglecontrol';
-import AreaSwitcherControl from './AreaSwitcherControl/AreaSwitcherControl';
+import MapboxAreaSwitcherControl from '@watergis/mapbox-gl-area-switcher';
+import '@watergis/mapbox-gl-area-switcher/css/styles.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import '@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css';
 import "mapbox-gl-style-switcher/styles.css"
 import './pitchtogglecontrol/pitchtogglecontrol.css';
-import './AreaSwitcherControl/AreaSwitcherControl.css';
+
 import './style.css';
 import config from './config';
 
@@ -107,7 +108,8 @@ $(function(){
                 {"title":"56 Ngoma", "latlng":[30.4571880272249,-2.18299296025152],"zoom":12},
                 {"title":"57 Bugesera", "latlng":[30.1501661937551,-2.2397657167318],"zoom":12},
             ];
-            this.map.addControl(new AreaSwitcherControl(areas), 'top-left');
+            MapboxAreaSwitcherControl.DEFAULT_AREA = areas[0].title;
+            this.map.addControl(new MapboxAreaSwitcherControl(areas), 'top-left');
         });
     }
 })
