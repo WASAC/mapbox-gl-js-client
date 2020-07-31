@@ -1,4 +1,4 @@
-const version = 0.2;
+const version = 0.3;
 
 module.exports = {
     accessToken : process.env.ACCESSTOKEN,
@@ -6,7 +6,7 @@ module.exports = {
     styles : [
         { title: 'Street', uri: `https://wasac.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
         { title: 'Satellite', uri: `https://wasac.github.io/mapbox-stylefiles/satellite/style.json?version=${version}`},
-        { title: 'UN Vector', uri: 'https://wasac.github.io/mapbox-stylefiles/unvt/style.json'}
+        { title: 'UN Vector', uri: `https://wasac.github.io/mapbox-stylefiles/unvt/style.json?version=${version}`}
     ],
     center: [30.0291, -2.0032],
     zoom: 9,
