@@ -11,7 +11,7 @@ module.exports = {
     center: [30.0291, -2.0032],
     zoom: 9,
     search:{
-        url: 'https://wasac.github.io/vt-map/wss.geojson',
+        url: 'https://wasac.github.io/vt/wss.geojson',
         target: ['wss_name', 'district','po_name'],
         format: (p) => {return `${p.wss_id}-${p.wss_name}, ${p.po_name}, ${p.district}`},
         place_type: ['wss'],
