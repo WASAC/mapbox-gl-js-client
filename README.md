@@ -1,5 +1,5 @@
 # mapbox-gl-js-client
-[![CircleCI](https://circleci.com/gh/WASAC/mapbox-gl-js-client.svg?style=svg)](https://circleci.com/gh/WASAC/mapbox-gl-js-client)
+![](https://github.com/WASAC/mapbox-gl-js-client/workflows/Node.js%20CI/badge.svg)
 ![GitHub](https://img.shields.io/github/license/wasac/mapbox-gl-js-client)
 [![Gitter](https://badges.gitter.im/narwassco/community.svg)](https://gitter.im/narwassco/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
