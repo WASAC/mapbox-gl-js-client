@@ -56,5 +56,20 @@ module.exports = {
             {"title":"56 Ngoma", "latlng":[30.4571880272249,-2.18299296025152],"zoom":12},
             {"title":"57 Bugesera", "latlng":[30.1501661937551,-2.2397657167318],"zoom":12},
         ]
+    },
+    legend:{
+        targets:{
+            'village': 'Village',
+            'cell': 'Cell',
+            'sector': 'Sector',
+            'district': 'District',
+            'wss': 'WSS',
+            'pipeline': 'Pipeline',
+            'watersource': 'Water Source',
+            'reservoir': 'Reservoir', 
+            'pumping-station': 'Pumping Station', 
+            'chamber': 'Chamber', 
+            'connection': 'Water Connection'
+        }
     }
 }
