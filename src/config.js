@@ -1,4 +1,4 @@
-const version = 0.3;
+const version = 0.4;
 
 module.exports = {
     accessToken : process.env.ACCESSTOKEN,
@@ -20,7 +20,7 @@ module.exports = {
         zoom: 13,
     },
     popup: {
-        target: ['connection','chamber','reservoir','pumping-station','watersource','pipeline','wss']
+        target: ['household','publictap','waterkiosk','industrial','institution','other connection','chamber','reservoir','pumping-station','watersource','pipeline','wss']
     },
     areaSwitcher: {
         areas : [
@@ -69,7 +69,12 @@ module.exports = {
             'reservoir': 'Reservoir', 
             'pumping-station': 'Pumping Station', 
             'chamber': 'Chamber', 
-            'connection': 'Water Connection'
+            'household': 'Household',
+            'publictap': 'Public Tap',
+            'waterkiosk': 'Water Kiosk',
+            'industrial': 'Industrial',
+            'institution': 'Institution',
+            'other connection': 'Other connection'
         }
     }
 }
