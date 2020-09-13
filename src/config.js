@@ -1,10 +1,11 @@
-const version = 0.4;
+const version = 0.5;
 
 module.exports = {
     accessToken : process.env.ACCESSTOKEN,
     attribution : '©WASAC,Ltd.',
     styles : [
         { title: 'Street', uri: `https://wasac.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
+        { title: 'Street with parcels', uri: `https://wasac.github.io/mapbox-stylefiles/street-parcels/style.json?version=${version}`,}, 
         { title: 'Satellite', uri: `https://wasac.github.io/mapbox-stylefiles/satellite/style.json?version=${version}`},
         { title: 'UN Vector', uri: `https://wasac.github.io/mapbox-stylefiles/unvt/style.json?version=${version}`}
     ],
