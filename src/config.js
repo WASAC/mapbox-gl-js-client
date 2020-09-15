@@ -1,11 +1,10 @@
-const version = 0.5;
+const version = 0.6;
 
 module.exports = {
     accessToken : process.env.ACCESSTOKEN,
     attribution : '©WASAC,Ltd.',
     styles : [
         { title: 'Street', uri: `https://wasac.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
-        { title: 'Street with parcels', uri: `https://wasac.github.io/mapbox-stylefiles/street-parcels/style.json?version=${version}`,}, 
         { title: 'Satellite', uri: `https://wasac.github.io/mapbox-stylefiles/satellite/style.json?version=${version}`},
         { title: 'UN Vector', uri: `https://wasac.github.io/mapbox-stylefiles/unvt/style.json?version=${version}`}
     ],
@@ -21,7 +20,11 @@ module.exports = {
         zoom: 13,
     },
     popup: {
-        target: ['household','publictap','waterkiosk','industrial','institution','other connection','chamber','reservoir','pumping-station','watersource','pipeline','wss']
+        target: [
+            'handpump','improvedspring','dugwell','solarpump','otherwaterpoint',
+            'household','publictap','waterkiosk','industrial','institution','other connection',
+            'chamber','reservoir','pumping-station','watersource','pipeline','wss'
+        ]
     },
     areaSwitcher: {
         areas : [
@@ -75,7 +78,12 @@ module.exports = {
             'waterkiosk': 'Water Kiosk',
             'industrial': 'Industrial',
             'institution': 'Institution',
-            'other connection': 'Other connection'
+            'other connection': 'Other connection',
+            'handpump': 'Hand Pump',
+            'improvedspring': 'Improved Spring',
+            'dugwell': 'Dug well',
+            'solarpump': 'Solar Pump',
+            'otherwaterpoint': 'Other water point'
         }
     }
 }
