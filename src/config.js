@@ -85,5 +85,15 @@ module.exports = {
             'solarpump': 'Solar Pump',
             'otherwaterpoint': 'Other water point'
         }
+    },
+    elevation: {
+        url: 'https://wasac.github.io/rw-terrain/tiles/{z}/{x}/{y}.png',
+        options: {
+            font: ['Roboto Medium'],
+            fontSize: 12,
+            fontHalo: 1,
+            mainColor: '#263238',
+            haloColor: '#fff',
+        }
     }
 }

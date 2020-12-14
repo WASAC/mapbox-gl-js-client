@@ -27,11 +27,12 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.2.0"
+    "webpack-merge": "^5.7.0"
   },
   "dependencies": {
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@watergis/mapbox-gl-area-switcher": "^1.0.1",
+    "@watergis/mapbox-gl-elevation": "^1.0.0",
     "@watergis/mapbox-gl-export": "^1.1.0",
     "@watergis/mapbox-gl-legend": "^1.0.5",
     "@watergis/mapbox-gl-pitch-toggle-control": "^1.0.3",
@@ -39,7 +40,7 @@
     "dotenv": "^8.2.0",
     "es6-promise": "^4.2.8",
     "jquery": "^3.5.1",
-    "mapbox-gl": "^1.12.0",
+    "mapbox-gl": "^1.13.0",
     "mapbox-gl-controls": "^1.6.5",
     "mapbox-gl-style-switcher": "^1.0.9",
     "turf": "^3.0.14"
