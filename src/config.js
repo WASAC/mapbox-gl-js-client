@@ -64,11 +64,17 @@ module.exports = {
     legend:{
         targets:{
             'village': 'Village',
+            'village-annotation': 'Village Label',
             'cell': 'Cell',
+            'cell-annotation': 'Cell Label',
             'sector': 'Sector',
+            'sector-annotation': 'Sector Label',
             'district': 'District',
+            'district-annotation': 'District Label',
             'wss': 'WSS',
+            'wss-annotation': 'WSS Label',
             'pipeline': 'Pipeline',
+            'pipeline_annotation': 'Pipeline Label',
             'watersource': 'Water Source',
             'reservoir': 'Reservoir', 
             'pumping-station': 'Pumping Station', 
@@ -83,7 +89,18 @@ module.exports = {
             'improvedspring': 'Improved Spring',
             'dugwell': 'Dug well',
             'solarpump': 'Solar Pump',
-            'otherwaterpoint': 'Other water point'
+            'otherwaterpoint': 'Other water point',
+            'parcels': 'Parcels',
+            'parcels_annotation': 'Parcels Label',
+            'contour-line': 'Countour',
+            'contour-label': 'Contour Label',
+            'hillshade': 'Hillshade'
+        },
+        options: {
+            showDefault:false,
+            showCheckbox:true,
+            reverseOrder:true,
+            onlyRendered:true
         }
     },
     elevation: {

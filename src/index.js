@@ -48,14 +48,8 @@ $(function(){
 
     let legendCtrl;
     if (config.legend){
-        map.on('styledata', function() {
-            if(legendCtrl){
-                map.removeControl(legendCtrl);
-                legendCtrl = null;
-            }
-            legendCtrl = new MapboxLegendControl(config.legend.targets, {showDefault:false});
-            map.addControl(legendCtrl, 'bottom-left')
-        });
+        legendCtrl = new MapboxLegendControl(config.legend.targets, config.legend.options);
+        map.addControl(legendCtrl, 'bottom-left')
     }
 
     if (config.search){
