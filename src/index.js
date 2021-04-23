@@ -8,8 +8,6 @@ import MapboxPopupControl from '@watergis/mapbox-gl-popup';
 import '@watergis/mapbox-gl-popup/css/styles.css';
 import MapboxPitchToggleControl from '@watergis/mapbox-gl-pitch-toggle-control';
 import '@watergis/mapbox-gl-pitch-toggle-control/css/styles.css';
-import MapboxAreaSwitcherControl from '@watergis/mapbox-gl-area-switcher';
-import '@watergis/mapbox-gl-area-switcher/css/styles.css';
 import MapboxLegendControl from "@watergis/mapbox-gl-legend";
 import '@watergis/mapbox-gl-legend/css/styles.css';
 import { MapboxExportControl } from "@watergis/mapbox-gl-export";
@@ -18,6 +16,8 @@ import MapboxElevationControl from "@watergis/mapbox-gl-elevation";
 import '@watergis/mapbox-gl-elevation/css/styles.css';
 import { MapboxValhallaControl} from "@watergis/mapbox-gl-valhalla";
 import '@watergis/mapbox-gl-valhalla/css/styles.css';
+import MapboxAdminBoundaryControl from "@wasac/mapbox-gl-admin-boundary";
+import "@wasac/mapbox-gl-admin-boundary/css/styles.css";
 import axios from 'axios';
 import config from './config';
 
@@ -87,7 +87,7 @@ import config from './config';
                 }),
                 'top-left'
             );
-            map.addControl(new MapboxAreaSwitcherControl(config.areaSwitcher.areas), 'top-left');
+            map.addControl(new MapboxAdminBoundaryControl(config.adminBoundary.url), 'top-left');
         })
     }
 
