@@ -205,7 +205,7 @@
 
 "@wasac/mapbox-gl-admin-boundary@git+https://github.com/WASAC/mapbox-gl-admin-boundary.git":
   version "1.0.0"
-  resolved "git+https://github.com/WASAC/mapbox-gl-admin-boundary.git#4f39985601bbc8fd6ffa4e66a62ca82e98c8fd50"
+  resolved "git+https://github.com/WASAC/mapbox-gl-admin-boundary.git#45f767cb88099321e49090b617d387260786dc0c"
   dependencies:
     "@types/geojson" "^7946.0.7"
     axios "^0.21.1"
