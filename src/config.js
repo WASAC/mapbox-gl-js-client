@@ -101,7 +101,7 @@ module.exports = {
                     color: '0000ff',
                 },
                 {
-                    time: 30,
+                    time: 15,
                     distance: 4,
                     color: 'ff00ff',
                 },
