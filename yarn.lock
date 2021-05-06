@@ -67,9 +67,9 @@
     xtend "^4.0.1"
 
 "@mapbox/mapbox-gl-style-spec@^13.16.0", "@mapbox/mapbox-gl-style-spec@^13.19.0":
-  version "13.19.0"
-  resolved "https://registry.npmjs.org/@mapbox/mapbox-gl-style-spec/-/mapbox-gl-style-spec-13.19.0.tgz"
-  integrity sha512-qA9P4WHU4a1iLKM/W2EIxCxcwlxa6isPF6P+jSPaIs4VlZKYO1DMVWNiY03SXu6a+K3dB3GEhRLvEh1f/8VG2w==
+  version "13.19.2"
+  resolved "https://registry.yarnpkg.com/@mapbox/mapbox-gl-style-spec/-/mapbox-gl-style-spec-13.19.2.tgz#cb170060fd82ee3fe8964593f583da8aacafffd8"
+  integrity sha512-FCkbSleSBpMjMjJO91dPMfksdX8aL2CydFqH1Xm3mlQRofMb08NYnewYbLCqqE1WFrprAP/E8rPK1/jTdb6hvg==
   dependencies:
     "@mapbox/jsonlint-lines-primitives" "~2.0.2"
     "@mapbox/point-geometry" "^0.1.0"
@@ -238,14 +238,14 @@
     jspdf "^1.5.3"
     mapbox-gl "^1.13.1"
 
-"@watergis/mapbox-gl-legend@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.npmjs.org/@watergis/mapbox-gl-legend/-/mapbox-gl-legend-1.1.4.tgz"
-  integrity sha512-bROheJ19dUPvxaPeowI4MtV6auDDSZbm08j9nqCWfrNuX0kWqq5/19FMClYz5gzrRO/1RItv5cWq++TxAXcbDA==
+"@watergis/mapbox-gl-legend@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@watergis/mapbox-gl-legend/-/mapbox-gl-legend-1.1.5.tgz#1570db929566d6d3bae28e886693d0f728a943c7"
+  integrity sha512-bb8/hGOcvPQtidaBhQLOUEYboqsBZByvWL+zGEHp1jeTMpxDTuRhhlZAqgEE1URjizmtxIZ3JAPO/3mnXhbNNA==
   dependencies:
     "@mapbox/mapbox-gl-style-spec" "^13.19.0"
     axios "^0.21.1"
-    legend-symbol "git+https://github.com/watergis/legend-symbol.git#develop"
+    legend-symbol "^0.1.1"
     mapbox-gl "^1.13.1"
 
 "@watergis/mapbox-gl-pitch-toggle-control@^1.0.3":
@@ -3158,7 +3158,7 @@ json-schema@0.2.3:
 
 json-stringify-pretty-compact@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/json-stringify-pretty-compact/-/json-stringify-pretty-compact-2.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/json-stringify-pretty-compact/-/json-stringify-pretty-compact-2.0.0.tgz#e77c419f52ff00c45a31f07f4c820c2433143885"
   integrity sha512-WRitRfs6BGq4q8gTgOy4ek7iPFXjbra0H3PmDLKm2xnZ+Gh1HUhiKGgCZkSPNULlP7mvfu6FV/mOLhCarspADQ==
 
 json-stringify-safe@~5.0.1:
@@ -3255,9 +3255,10 @@ kind-of@^6.0.0, kind-of@^6.0.2, kind-of@^6.0.3:
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-"legend-symbol@git+https://github.com/watergis/legend-symbol.git#develop":
-  version "0.1.0"
-  resolved "git+https://github.com/watergis/legend-symbol.git#c74d1fdba7c291ca8bca19a34ca23310cd0126b8"
+legend-symbol@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/legend-symbol/-/legend-symbol-0.1.1.tgz#8e8471cdb877766746ba60cbf3beb3c1637f9dd1"
+  integrity sha512-AVkYC9lj0zSnx0LZvbnLtRdfwcSIFEFq6BTKP6OAdCmFg/Bh+cOqoFCaj+DQX6xlth/zN16FTh8STVs2/MPUpg==
   dependencies:
     "@mapbox/mapbox-gl-style-spec" "^13.16.0"
 
@@ -5017,12 +5018,12 @@ sockjs@^0.3.21:
 
 sort-asc@^0.1.0:
   version "0.1.0"
-  resolved "https://registry.npmjs.org/sort-asc/-/sort-asc-0.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/sort-asc/-/sort-asc-0.1.0.tgz#ab799df61fc73ea0956c79c4b531ed1e9e7727e9"
   integrity sha1-q3md9h/HPqCVbHnEtTHtHp53J+k=
 
 sort-desc@^0.1.1:
   version "0.1.1"
-  resolved "https://registry.npmjs.org/sort-desc/-/sort-desc-0.1.1.tgz"
+  resolved "https://registry.yarnpkg.com/sort-desc/-/sort-desc-0.1.1.tgz#198b8c0cdeb095c463341861e3925d4ee359a9ee"
   integrity sha1-GYuMDN6wlcRjNBhh45JdTuNZqe4=
 
 sort-keys@^1.0.0:
@@ -5041,7 +5042,7 @@ sort-keys@^2.0.0:
 
 sort-object@^0.3.2:
   version "0.3.2"
-  resolved "https://registry.npmjs.org/sort-object/-/sort-object-0.3.2.tgz"
+  resolved "https://registry.yarnpkg.com/sort-object/-/sort-object-0.3.2.tgz#98e0d199ede40e07c61a84403c61d6c3b290f9e2"
   integrity sha1-mODRme3kDgfGGoRAPGHWw7KQ+eI=
   dependencies:
     sort-asc "^0.1.0"
